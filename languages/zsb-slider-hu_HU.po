@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZSB Slider v1.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2022-03-26 18:31+0100\n"
+"POT-Creation-Date: 2022-03-28 14:54+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -16,7 +16,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -47,8 +50,11 @@ msgid "Slider Style"
 msgstr "Lapozó stílusa"
 
 #: class.zsb-slider-settings.php:76
-msgid "Use the shortcode [zsb_slider] to display the slider in any page/post/widget"
-msgstr "Használja a [zsb_slider] rövid kódot a csúszka megjelenítéséhez bármely oldalon/bejegyzésben/widgetben"
+msgid ""
+"Use the shortcode [zsb_slider] to display the slider in any page/post/widget"
+msgstr ""
+"Használja a [zsb_slider] rövid kódot a csúszka megjelenítéséhez bármely "
+"oldalon/bejegyzésben/widgetben"
 
 #: class.zsb-slider-settings.php:104
 msgid "Whether to display bullets or not"
@@ -80,11 +86,15 @@ msgstr "Link szövege"
 msgid "Link URL"
 msgstr "Link URL"
 
-#: post-types/class.zsb-slider-cpt.php:69
+#: post-types/class.zsb-slider-cpt.php:46
+msgid "Featured Image"
+msgstr "Kiemelt Kép"
+
+#: post-types/class.zsb-slider-cpt.php:72
 msgid "Link Options"
 msgstr "Link Opciók"
 
-#: post-types/class.zsb-slider-cpt.php:107
+#: post-types/class.zsb-slider-cpt.php:110
 msgid "Add some text"
 msgstr "Adjon hozzá szöveget"
 
@@ -104,22 +114,22 @@ msgstr "További beállítások"
 msgid "Save Settings"
 msgstr "Beállítás Mentése"
 
-#: zsb-slider.php:74
+#: zsb-slider.php:86
 msgid "ZSB Slider Options"
 msgstr "ZSB Lapozó Beállítások"
 
-#: zsb-slider.php:75
+#: zsb-slider.php:87
 msgid "ZSB Slider"
 msgstr "ZSB Lapozó"
 
-#: zsb-slider.php:84 zsb-slider.php:85
+#: zsb-slider.php:96 zsb-slider.php:97
 msgid "Manage Slides"
 msgstr "Slide-ok Kezelése"
 
-#: zsb-slider.php:94 zsb-slider.php:95
+#: zsb-slider.php:106 zsb-slider.php:107
 msgid "Add New Slide"
 msgstr "Új Slide Hozzáadása"
 
-#: zsb-slider.php:108
+#: zsb-slider.php:120
 msgid "Settings Saved"
 msgstr "Beállítások elmentve"

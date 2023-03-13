@@ -1,5 +1,6 @@
-import {tns} from 'tiny-slider'
-// import './index.scss'
+import {tns} from 'tiny-slider';
+import './index.scss';
+import './style.scss';
 
 const slider = tns({
   container: ".slides",

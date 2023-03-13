@@ -124,13 +124,13 @@
 			}
 
 			public function register_scripts(){
-				wp_register_style( 'zsb-slider-main-css', ZSB_SLIDER_URL . 'assets/index.css', array(), ZSB_SLIDER_VERSION, 'all');
+				wp_register_style( 'zsb-slider-main-css', ZSB_SLIDER_URL . 'build/index.css', array(), ZSB_SLIDER_VERSION, 'all');
 			}
 
 			public function register_admin_scripts(){
 				global $typenow;
 				if( $typenow == 'zsb-slider' ){
-					wp_enqueue_style( 'zsb-slider-admin', ZSB_SLIDER_URL . 'assets/admin.css', array(), ZSB_SLIDER_VERSION, 'all');
+					wp_enqueue_style( 'zsb-slider-admin', ZSB_SLIDER_URL . 'build/style-index.css', array(), ZSB_SLIDER_VERSION, 'all');
 				}
 			}
 		}

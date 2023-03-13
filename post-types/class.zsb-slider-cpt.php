@@ -43,7 +43,7 @@ if( !class_exists( 'ZSB_Slider_Post_Type' ) ){
 		public function zsb_slider_cpt_columns( $columns ){
 			$columns['zsb_slider_link_text'] = esc_html__( 'Link Text', 'zsb-slider' );
 			$columns['zsb_slider_link_url'] = esc_html__( 'Link URL', 'zsb-slider' );
-			// $columns['zsb_slider_image'] = esc_html__( 'Featured Image', 'zsb-slider');
+			$columns['zsb_slider_image'] = esc_html__( 'Featured Image', 'zsb-slider');
 			return $columns;
 		}
 
@@ -54,6 +54,9 @@ if( !class_exists( 'ZSB_Slider_Post_Type' ) ){
 				break;
 				case 'zsb_slider_link_url':
 					echo esc_url( get_post_meta( $post_id, 'zsb_slider_link_url', true) );
+				break;
+				case 'zsb_slider_image':
+					the_post_thumbnail( array(50) );
 				break;
 			}
 		}

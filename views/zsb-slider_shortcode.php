@@ -1,4 +1,3 @@
-<h3><?php echo ( !empty( $content ) ) ? esc_html( $content ) : esc_html( ZSB_Slider_Settings::$options['zsb_slider_title'] ); ?></h3>
 <div class="zsb-slider <?php echo ( isset(ZSB_Slider_Settings::$options['zsb_slider_style'] ) ) ? esc_attr( ZSB_Slider_Settings::$options['zsb_slider_style'] ) : 'style-1'; ?>">
 	<ul class="slides">
 		<?php
@@ -16,7 +15,7 @@
 				$button_text = get_post_meta( get_the_ID(), 'zsb_slider_link_text', true );
 				$button_url = get_post_meta( get_the_ID(), 'zsb_slider_link_url', true );
 		?>
-			<li>
+			<li class="slide">
 				<?php
 				if( has_post_thumbnail() ){
 					the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) );
@@ -28,7 +27,7 @@
 					<div class="slider-details-container">
 						<div class="wrapper">
 							<div class="slider-title">
-								<h2><?php the_title(); ?></h2>
+								<h1><?php the_title(); ?></h1>
 							</div>
 							<div class="slider-description">
 								<div class="subtitle"><?php the_content(); ?></div>

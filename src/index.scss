@@ -1,2 +1,2 @@
-@use '../node_modules/tiny-slider/src/tiny-slider.scss' as *;
-@use './scss/frontend.scss' as *;
+@forward '../node_modules/tiny-slider/src/tiny-slider.scss';
+@forward './scss/frontend.scss';
