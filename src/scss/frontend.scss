@@ -1,109 +1,113 @@
 /* Slider */
 
 .zsb-slider{
- position: relative;
- border: 0 !important;
+    position: relative;
+    border: 0 !important;
 
- .img-fluid {
-     max-width: 100%;
-     height: auto;
- }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
 
- .zsbs-container{
-     max-width: 1140px;
-     width: 100%;
-     padding-right: 50px;
-     padding-left: 50px;
-     margin-right: auto;
-     margin-left: auto;
- }
+    .zsbs-container{
+        max-width: 1140px;
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
- .slider-details-container {
-     color: #FFF;
-     top: 50%;
-     transform: translateY(-50%);
-     position: absolute;
- }
+    .slider-details-container {
+        color: #FFF;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
 
- .slider-details-container .subtitle{
-     margin-bottom: 15px;
- }
+        .subtitle{
+            margin-bottom: 15px;
 
- .slider-details-container .slider-title{
-     color: #FFF;
-     font-weight: 700;
- }
-
- .slider-details-container a{
-     color: #fff;
-     border-radius: 5px;
-     text-transform: uppercase;
-     padding: 5px 25px;
-     display: inline-block;
-     text-decoration: none;
- }
-
- .slider-details-container a:hover{
-     color: #fff;
- }
-
- .slides {
-     padding: 0 !important;
- }
-
- &.style-1 {
-     .slider-details-container {
-        .link {
-            background-color: #1d4671;
+            p {
+                color: #FFF;
+            }
         }
-     }
 
-     .tns-nav {
-         button {
-             background-color: rgb(247,247,247);
+        .slider-title{
+            color: #FFF;
+            font-weight: 700;
+        }
 
-             &.tns-nav-active {
-                 background-color: rgb(182,2,2);
-             }
-         }
-     }
- }
+        a{
+            color: #fff;
+            border-radius: 5px;
+            text-transform: uppercase;
+            padding: 5px 25px;
+            display: inline-block;
+            text-decoration: none;
+        }
 
- &.style-2 {
-     .slider-details-container {
-         .link {
+        &:hover{
+            color: #fff;
+        }
+    }
+
+    .slides {
+        padding: 0 !important;
+    }
+
+    &.style-1 {
+        .slider-details-container {
+            .link {
+                background-color: #1d4671;
+            }
+        }
+
+        .tns-nav {
+            button {
+                background-color: rgb(247,247,247);
+
+                &.tns-nav-active {
+                    background-color: rgb(182,2,2);
+                }
+            }
+        }
+    }
+
+    &.style-2 {
+        .slider-details-container {
+            .link {
             background-color: #71481d;
-         }
-     }
+            }
+        }
 
-     .tns-nav {
-         button {
-             background-color: rgb(247, 247, 247);
+        .tns-nav {
+            button {
+                background-color: rgb(247, 247, 247);
 
-             &.tns-nav-active {
-                 background-color: rgb(2, 182, 14);
-             }
-         }
-     }
- }
+                &.tns-nav-active {
+                    background-color: rgb(2, 182, 14);
+                }
+            }
+        }
+    }
 
- &.lasaphire {
-     .slider-details-container {
-         .link {
-             background-color: #6F9A3D;
-         }
-     }
+    &.lasaphire {
+        .slider-details-container {
+            .link {
+                background-color: #6F9A3D;
+            }
+        }
 
-     .tns-nav {
-         button {
-             background-color: rgb(153, 153, 153);
+        .tns-nav {
+            button {
+                background-color: rgb(153, 153, 153);
 
-             &.tns-nav-active {
-                 background-color: rgb(216, 111, 111);
-             }
-         }
-     }
- }
+                &.tns-nav-active {
+                    background-color: rgb(216, 111, 111);
+                }
+            }
+        }
+    }
 }
 
 .tns-outer {
