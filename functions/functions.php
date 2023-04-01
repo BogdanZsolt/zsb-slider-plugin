@@ -2,7 +2,7 @@
 
 if( !function_exists( 'zsb_slider_get_placeholder_image' ) ){
 	function zsb_slider_get_placeholder_image(){
-		return "<img src='". ZSB_SLIDER_URL . "images/default.jpg' class='img-fluid wp-post-image' >";
+		return "<img src='". ZSB_SLIDER_URL . "images/default.webp' class='img-fluid wp-post-image' >";
 	}
 }
 
@@ -15,4 +15,11 @@ if( !function_exists( 'zsb_slider_options' ) ){
 			'controlNav' => $show_bullets,
 		) );
 	}
+}
+
+if(!has_image_size('la-saphire-background')){
+	function zsb_slider_image_setup(){
+		add_image_size( 'la-saphire-background', 1920, 1080, array( 'center', 'center' ) );
+	}
+	add_action('after_setup_theme', 'zsb_slider_image_setup', 100);
 }
