@@ -1,13 +1,13 @@
 <?php
 
 /**
-	* Plugin Name: ZSB Slider
-	* Plugin URI: https://zsoltbogdan.hu/plugins/zsb-slider
+	* Plugin Name: La Saphire Slider
+	* Plugin URI: https://bogdanzsolt.hu/plugins/ls-slider
 	* Description: My plugin's description
 	* Version: 1.0
 	* Requirest at least: 5.6
 	* Author: Zsolt Bogdán
-	* Author URI: https://zsoltbogdan.hu
+	* Author URI: https://bogdanzsolt.hu
 	* License: GPL v3 or later
 	* License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	* Text Domain: zsb-slider
@@ -83,8 +83,8 @@
 
 			public function add_menu(){
 				add_menu_page(
-					esc_html__( 'ZSB Slider Options', 'zsb-slider' ),
-					esc_html__( 'ZSB Slider', 'zsb-slider' ),
+					esc_html__( 'La Saphire Slider Options', 'zsb-slider' ),
+					esc_html__( 'La Saphire Slider', 'zsb-slider' ),
 					'manage_options',
 					'zsb_slider_admin',
 					array( $this, 'zsb_slider_settings_page'),

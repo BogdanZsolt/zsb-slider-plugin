@@ -19,7 +19,7 @@ if( !function_exists( 'zsb_slider_options' ) ){
 
 if(!has_image_size('la-saphire-background')){
 	function zsb_slider_image_setup(){
-		add_image_size( 'la-saphire-background', 1920, 1080, array( 'center', 'center' ) );
+		add_image_size( 'la-saphire-background', 1600, 900, array( 'center', 'center' ) );
 	}
 	add_action('after_setup_theme', 'zsb_slider_image_setup', 100);
 }

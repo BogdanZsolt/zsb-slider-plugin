@@ -5,8 +5,15 @@
     border: 0 !important;
 
     .img-fluid {
+        display: none;
         max-width: 100%;
         height: auto;
+    }
+
+    .img-mobile {
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
 
     .zsbs-container{
@@ -134,4 +141,16 @@
    background-color: #9f9f9f;
   }
  }
+}
+
+@media (min-width: 576px) {
+    .zsb-slider {
+        .img-mobile {
+            display: none;
+        }
+
+        .img-fluid {
+            display: block;
+        }
+    }
 }

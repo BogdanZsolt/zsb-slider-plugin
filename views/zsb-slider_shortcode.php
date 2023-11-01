@@ -20,6 +20,7 @@
       <?php
 				if( has_post_thumbnail() ){
 					the_post_thumbnail( 'full', array( 'class' => 'img-fluid' ) );
+					the_post_thumbnail( 'la-saphire-featured-portrait', array( 'class' => 'img-mobile' ) );
 				} else {
 					echo zsb_slider_get_placeholder_image();
 				}
